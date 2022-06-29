@@ -4,9 +4,43 @@ Ezequiel Yukio Kreczmer Nakasone
 
 A- ¿Qué color de fondo tiene su página en el TESTING ?
 El color de fondo de la pantalla es Azul
+
 B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
 El color de fondo de la pagina es Amarilla
+
 C- ¿Qué color de fondo tiene su página en el MASTER?
 El color de fondo de la pagina es Blanco
+
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 El de BETA
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si, tanto como Beta, como Gamma
+
+F- ¿Qué problemas surgieron?
+ ! [rejected]        TESTING -> TESTING (fetch first)
+error: failed to push some refs to 'https://github.com/yukikreczmer/TP_SO_I4_Equipo104'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Esto significa que Beta y Gamma quieren hacer un push en algo que todavia no tienen actualizado.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+La solucion que pudimos aplicar fue, primero hacer un git add, luego commitear la informacion 
+agregada por Beta y Gamma respectivamente, y luego hacer un git pull, para recibir la 
+informacion de Alpha y luego hacer los respectivos push. La consecuencia fue que la informacion
+subida por Alpha quedo abajo de donde respectivamente estaba y separada por una linea de =.
+
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Al ser un push force, el ultimo en pushear sobreescribiria su informacion sobre el resto.
+
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ? 
+Si solo deseo que se apliquen los cambios de 18, 19 y 20, sin cambiar el color de fondo, deberia
+editar el archivo .html desde la branch de DESARROLLO. 
