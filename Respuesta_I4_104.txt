@@ -43,4 +43,5 @@ Al ser un push force, el ultimo en pushear sobreescribiria su informacion sobre 
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ? 
 Si solo deseo que se apliquen los cambios de 18, 19 y 20, sin cambiar el color de fondo, deberia
-editar el archivo .html desde la branch de DESARROLLO. 
+editar el archivo .html desde la branch de DESARROLLO. Sino hay que hacer un marge entre DESARROLLO
+y TESTING y resolver manualmente los conflictos. 
