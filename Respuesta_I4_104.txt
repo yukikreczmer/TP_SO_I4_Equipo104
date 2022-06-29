@@ -1,0 +1,12 @@
+Hernández Pablo
+Lubo Millán Joaquin
+Ezequiel Yukio Kreczmer Nakasone
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+El color de fondo de la pantalla es Azul
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+El color de fondo de la pagina es Amarilla
+C- ¿Qué color de fondo tiene su página en el MASTER?
+El color de fondo de la pagina es Blanco
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+El de BETA
